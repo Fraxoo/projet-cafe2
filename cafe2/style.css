@@ -342,12 +342,15 @@ color: white;
     display: flex;
     justify-content: space-around;
     background-color: rgb(46, 34, 25);
-    padding: 3rem 0px
+    padding: 3rem 0px;
+    flex-wrap: wrap;
+    
 }
 
 .all div{
     display: flex;
     flex-direction: column;
+    
 }
 
 .all div p{
@@ -449,6 +452,15 @@ color: white;
 
 .pub{
     padding: 2rem 0px; 
+}
+
+.dis{
+    display: none;
+}
+
+.reseaux img{
+    display: grid;
+    
 }
 }
 
