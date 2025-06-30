@@ -96,6 +96,7 @@ color: white;
 .entre{
     padding: 1% 15%;
     flex-wrap: wrap;
+    margin: 3rem;
 
 }
 
@@ -124,7 +125,7 @@ color: white;
 
 .main h2{
     text-align: center;
-    padding: 10vh;
+    padding: 10vh 10vh 2vh 10vh;
 }
 
 .fleche{
@@ -216,7 +217,7 @@ color: white;
 }
 
 .fleche{
-    
+    display: none;
 }
 
 .haut .c2{
