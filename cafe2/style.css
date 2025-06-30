@@ -83,6 +83,30 @@ color: white;
   width: fit-content;
 }
 
+
+.entre{
+    padding: 1% 15%;
+    flex-wrap: wrap;
+
+}
+
+.choix{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+
+.choix a{
+    color: black;
+}
+
+
+
+
+
 @media screen and (max-width: 1000px) {
     body{
         margin: 0%;
@@ -93,4 +117,3 @@ color: white;
 }
 }
 
-url(../../Desktop/projet-cafe2/projet-cafe-main/cafe2)
