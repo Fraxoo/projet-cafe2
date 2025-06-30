@@ -387,7 +387,7 @@ color: white;
 }
 
 .main{
-    padding: 0;
+    padding: 1rem 0rem;
     
 }
 
@@ -434,5 +434,21 @@ color: white;
     display: none;
 }
 
+.sub{
+    padding: 20%;
+}
+
+.join .b1{
+    background-color: white;
+    color: black;
+    padding: 1rem 10rem 1rem 2rem;
+    border-radius: 50px;
+    text-align: start;
+
+}
+
+.pub{
+    padding: 2rem 0px; 
+}
 }
 
