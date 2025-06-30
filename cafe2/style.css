@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #E2D9C8;
+    margin: 4rem;
+
+}
+
+.top{
+    display: grid;
+    background-image: url(images/coffee-after-before-hair-transplant.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.top .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+.top .nav .topg a{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.lien{
+    padding: 10px;
+ 
+}
+
+.top .nav .lien a{
+    color: gray;
+    font-size: 1.5em;
+    padding-right: 2rem;
+    
+
+}
+
+.loupe{
+    height: 2rem;
+   
+}
+
+
+.welcome{
+    padding: 10rem;
+    display: grid;
+    gap: 20px;
+}
+
+.top .welcome p {
+  font-size: 3em;
+color: white;
+}
+
+.top .welcome h1 {
+  font-size: 3em;
+  color: white;
+}
+
+.top .welcome a {
+  color: black;
+  padding: 15px 30px;
+  border-radius: 9999px;
+  background-color: white;
+  font-size: 1em;
+  cursor: pointer;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        margin: 0%;
+    }
+    .welcome{
+    padding: 5rem;
+    display: grid;
+}
+}
+
+url(../../Desktop/projet-cafe2/projet-cafe-main/cafe2)
