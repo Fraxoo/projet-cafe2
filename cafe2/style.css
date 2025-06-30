@@ -116,7 +116,7 @@ color: white;
 
 
 .main{
-    background-color: white;
+    background-color: rgb(243, 240, 240);
     display: grid;
     object-fit: contain;
     
@@ -230,6 +230,107 @@ color: white;
 }
 
 
+.avis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 240, 240);
+}
+
+.avis p{
+    font-size: 2rem;
+    font-style: italic;
+    padding: 20px;
+    font-family: "Meow Script", cursive;
+}
+
+.avis h3{
+    font-size: 3rem;
+
+}
+
+.avis .notes{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.notes img{
+    width: 30%;
+   
+}
+
+.avis div{
+    padding: 20px;
+}
+
+.bouton1{
+    display: flex;
+
+}
+
+.bouton1 button{
+    padding: 1rem;
+    background-color: black;
+    border-radius: 100%;
+
+}
+
+.news{
+    display: flex;
+}
+
+.join{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join .sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.promo{
+    text-align: center;
+
+}
+
+.promo h4{
+    padding: 20px;
+}
+
+.promo p{
+    font-size: 1.2rem;
+}
+
+.join .b1{
+    background-color: white;
+    color: black;
+    padding: 1rem 20rem 1rem 2rem;
+    border-radius: 50px;
+    text-align: start;
+
+}
+
+
+.join .b2{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+
+
+
+
 @media screen and (max-width: 1000px) {
     body{
         margin: 0%;
@@ -269,4 +370,21 @@ color: white;
 .bas .c8{
     display: none;
 }
+
+.pub img{
+    display: none;
 }
+
+.pub{
+    text-align: center;
+    
+}
+
+.pub a{
+    width: auto;
+}
+
+
+
+}
+
