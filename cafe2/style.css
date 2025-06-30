@@ -19,7 +19,7 @@ a{
 
 body{
     background-color: #E2D9C8;
-    margin: 4rem;
+    margin: 6rem;
 
 }
 
@@ -138,6 +138,7 @@ color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .haut div{
@@ -150,6 +151,7 @@ color: white;
      padding: 1rem;
      border-radius: 5% ;
      box-shadow: 5px 5px 5px 5px rgb(229, 218, 183);
+     
 }
 
 
@@ -287,6 +289,8 @@ color: white;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+    object-fit: contain;
+    
 }
 
 .join .sub{
@@ -299,6 +303,7 @@ color: white;
 
 .promo{
     text-align: center;
+    object-fit: contain;
 
 }
 
@@ -327,9 +332,50 @@ color: white;
     border-radius: 50px;
 }
 
+.news img{
+       height: 35vh;
+    width: fit-content;
+}
 
 
+.all{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(46, 34, 25);
+    padding: 3rem 0px
+}
 
+.all div{
+    display: flex;
+    flex-direction: column;
+}
+
+.all div p{
+    color: white;
+
+}
+
+.blanc{
+    color: white;
+}
+
+.all div a{
+    color: gray;
+    padding: 1rem 0rem;
+    
+}
+
+.all div img{
+    width: fit-content;
+    height: 3rem;
+    padding: 2px;
+}
+
+.groscoffee{
+     font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 1000px) {
     body{
@@ -384,7 +430,9 @@ color: white;
     width: auto;
 }
 
-
+.news img{
+    display: none;
+}
 
 }
 
