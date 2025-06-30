@@ -10,7 +10,7 @@
 }
 
 .petit{
-    color: rgb(153, 137, 113);
+    color: rgb(159, 146, 128);
 }
 
 a{
@@ -198,8 +198,36 @@ color: white;
     font-size: large;
 }
 
+.pub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d9d1c2;
+}
 
+.pub img{
+    height: 50vh;
+    width: fit-content;
+}
 
+.pub p{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.pub a{
+    color: white;
+    background-color: rgb(80, 47, 47);
+    padding: 15px 30px;
+    width: fit-content;
+    border-radius: 4rem;
+    
+}
+
+.pub .explore{
+    display: grid;
+    gap: 3rem;
+}
 
 
 @media screen and (max-width: 1000px) {
