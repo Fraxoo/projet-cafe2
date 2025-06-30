@@ -4,6 +4,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.gros{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.petit{
+    color: rgb(153, 137, 113);
+}
+
 a{
     text-decoration: none;
 }
@@ -105,6 +114,91 @@ color: white;
 
 
 
+.main{
+    background-color: white;
+    display: grid;
+    object-fit: contain;
+    
+    padding: 2rem;
+}
+
+.main h2{
+    text-align: center;
+    padding: 10vh;
+}
+
+.fleche{
+    height: 5vh;
+    
+}
+
+
+.haut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.haut div{
+    background-color: #fcf9f3;
+    
+    object-fit: contain;
+    text-align: center;
+    height: fit-content;
+     width: 20rem;
+     padding: 1rem;
+     border-radius: 5% ;
+     box-shadow: 5px 5px 5px 5px rgb(229, 218, 183);
+}
+
+
+.haut div img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.haut div button{
+    padding: 0.7rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.bas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bas div{
+    background-color: #fcf9f3;
+    
+    object-fit: contain;
+    text-align: center;
+    height: fit-content;
+     width: 20rem;
+     padding: 1rem;
+     border-radius: 5% ;
+     box-shadow: 5px 5px 5px 5px rgb(229, 218, 183);
+}
+
+
+.bas div img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.bas div button{
+    padding: 0.7rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+}
+
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -115,5 +209,35 @@ color: white;
     padding: 5rem;
     display: grid;
 }
+
+.main{
+    padding: 0;
+    
 }
 
+.fleche{
+    
+}
+
+.haut .c2{
+    display: none;
+}
+
+.haut .c3{
+    display: none;
+}
+.haut .c4{
+    display: none;
+}
+
+
+.bas .c6{
+    display: none;
+}
+.bas .c7{
+    display: none;
+}
+.bas .c8{
+    display: none;
+}
+}
