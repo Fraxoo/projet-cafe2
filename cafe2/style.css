@@ -105,6 +105,7 @@ color: white;
     justify-content: center;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
     
     
 }
@@ -461,6 +462,10 @@ color: white;
 .reseaux img{
     display: grid;
     
+}
+
+.choix div{
+    margin-bottom: 1rem;
 }
 }
 
